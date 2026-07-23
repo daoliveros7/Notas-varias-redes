@@ -1,4 +1,4 @@
-# COMANDOS PARA INCLUIR SOPORTE DE IMAGENES IOU 32-BITS EN GNS3VM ###3
+# COMANDOS PARA INCLUIR SOPORTE DE IMAGENES IOU 32-BITS EN GNS3VM #
 
 # 1. Habilitar la arquitectura de 32 bits y actualizar los repositorios
 sudo dpkg --add-architecture i386
