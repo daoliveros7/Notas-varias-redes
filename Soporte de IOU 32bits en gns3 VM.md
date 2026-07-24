@@ -9,6 +9,7 @@ sudo apt-get install -y gns3-iou
 
 # 3. Descargar e instalar las librerías antiguas de OpenSSL necesarias para IOU (Librería de 32 bits)
 wget http://ubuntu.com
+
 sudo dpkg -i libssl1.1_1.1.1f-1ubuntu2.24_i386.deb
 
 # 4. Crear el enlace simbólico para corregir el error libcrypto.so.4
