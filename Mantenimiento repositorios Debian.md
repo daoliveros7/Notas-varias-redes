@@ -1,10 +1,11 @@
-#Tips mantenimiento de repositorios Debian
+# Tips mantenimiento de repositorios Debian
 
 A veces, los servidores de repositorios pueden desactualizarse o eliminar paquetes y dependencias con el paso del tiempo.
 
 Lo descrito a continuación ayudará a que las fuentes siempre mantengan paquetes estables:
 
-bash# Elimina los archivos de listas e índices descargados previamente
+- En una consola bash: 
+# Elimina los archivos de listas e índices descargados previamente
 sudo rm -rf /var/lib/apt/lists/*
 
 # Limpia los archivos parciales y la caché local
