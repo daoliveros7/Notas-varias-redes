@@ -47,8 +47,8 @@ ethernetX.noPromisc = "FALSE"
 # ejemplo (tengo dos tarjetas en mi GNS3 VM: eth2 y eth3 a las que 
 # deshabilitaré el modo promiscuo)
 
-nano "/home/dayron/vmware/GNS3 VM/GNS3 VM.vmx"
-nano /home/dayron/vmware/GNS3\ VM/GNS3\ VM.vmx
+nano "/home/daoliveros7/vmware/GNS3 VM/GNS3 VM.vmx"
+nano /home/daoliveros7/vmware/GNS3\ VM/GNS3\ VM.vmx
 
 # agrega al final
 ethernet2.noPromisc = "FALSE"
