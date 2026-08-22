@@ -14,7 +14,7 @@ como se espera.
 
 Por ello, se describen los pasos realizados para solucionar esta falla.
 
-#### Solucion #####3
+## Solución
 
 Paso 1
 
