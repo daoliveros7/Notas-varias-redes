@@ -53,8 +53,7 @@ nano /home/daoliveros7/vmware/GNS3\ VM/GNS3\ VM.vmx
 ethernet2.noPromisc = "FALSE"
 ethernet3.noPromisc = "FALSE"
 
-# repito los pasos editando los ficheros vmx de TODAS las máquinas virtuales
-# que necesite conectar a la topología de GNS3 o PNETLAB.
+# Repito los pasos editando los ficheros vmx de TODAS las máquinas virtuales que necesite conectar a la topología de GNS3 o PNETLAB.
 
 Paso 3
 
