@@ -2,6 +2,7 @@
 
 # 1. Habilitar la arquitectura de 32 bits y actualizar los repositorios
 sudo dpkg --add-architecture i386
+
 sudo apt-get update
 
 # 2. Instalar el paquete de dependencias IOU nativo de GNS3
