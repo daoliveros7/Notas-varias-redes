@@ -16,7 +16,7 @@ Por ello, se describen los pasos realizados para solucionar esta falla.
 
 ## Solución
 
-Paso 1
+**Paso 1**
 
 Apague completamente todas las maquinas virtuales de VMWare
 
@@ -31,7 +31,7 @@ chmod 666 /dev/vmnet*
 ; todos los adaptdores vmnet que tenga. puede usarlo solo para el vmnet
 ; específico que necesite.
 
-Paso 2
+**Paso 2**
 
 Busque la ruta donde están las máquinas virtuales que desea conectar a 
 traves de nubes. (ej: GNS3 VM con una VM Windows)
@@ -55,7 +55,7 @@ ethernet3.noPromisc = "FALSE"
 
 # Repito los pasos editando los ficheros vmx de TODAS las máquinas virtuales que necesite conectar a la topología de GNS3 o PNETLAB.
 
-Paso 3
+**Paso 3**
 
 Como root, reinicio las interfaces de vmware con los siguientes comandos:
 
@@ -63,7 +63,7 @@ Como root, reinicio las interfaces de vmware con los siguientes comandos:
 
 *vmware-networks --start*
 
-Paso 4
+**Paso 4**
 
 Encienda las maquinas virtuales, conectelas de acuerdo con sus necesidades
 dentro de la topología en GNS3 o PNETLAB.
