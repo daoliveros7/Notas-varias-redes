@@ -71,5 +71,4 @@ dentro de la topología en GNS3 o PNETLAB.
 Verifique la correcta conectividad entre las VMs con los appliances de la 
 topología!
 
-# De esta forma, se pueden conectar las maquinas virtuales sin problema con 
-# las topologías simuladas en GNS3 y PNETLAB. 
+### De esta forma, se pueden conectar las maquinas virtuales sin problema con las topologías simuladas en GNS3 y PNETLAB. 
