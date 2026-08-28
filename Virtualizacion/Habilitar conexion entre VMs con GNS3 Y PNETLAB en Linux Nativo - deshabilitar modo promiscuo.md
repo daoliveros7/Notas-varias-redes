@@ -59,8 +59,9 @@ Paso 3
 
 Como root, reinicio las interfaces de vmware con los siguientes comandos:
 
-vmware-networks --stop
-vmware-networks --start
+*vmware-networks --stop*
+
+*vmware-networks --start*
 
 Paso 4
 
